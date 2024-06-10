@@ -1,20 +1,3 @@
-<!--
-
-import: https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
-
--->
-
-# ino-clock
-This is a repository for the Arduino lightstrip clock project of the english course for Robotics, Computer Science and Mathematics students at the TU Freiberg.
-
-## Simulation
-
-<div id="matrix-experiment">
-<wokwi-neopixel-matrix pin="6" cols="12" rows="1"></wokwi-neopixel-matrix>
-<span id="simulation-time"></span>
-</div>
-
-```cpp             Automata
 #include "FastLED.h"
 #define DATA_PIN 6
 #define NUM_LEDS 12
@@ -65,5 +48,3 @@ void loop()
 
     FastLED.show();
 }
-```
-@AVR8js.sketch(matrix-experiment)
