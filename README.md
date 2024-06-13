@@ -9,7 +9,13 @@ import: https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 # ino-clock
 This is a repository for the Arduino lightstrip clock project of the english course for Robotics, Computer Science and Mathematics students at the TU Freiberg.
 
-## Simulation
+## Inspiration
+
+## Goal
+
+## Explanation
+
+### Simulation
 
 <div id="matrix-experiment">
 <wokwi-neopixel-matrix pin="6" cols="12" rows="1"></wokwi-neopixel-matrix>
@@ -69,3 +75,11 @@ void loop()
 }
 ```
 @AVR8js.sketch(matrix-experiment)
+
+## Challenges during development
+
+## Future of the project
+
+## Quiz
+
+## Sources
