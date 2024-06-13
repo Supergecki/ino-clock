@@ -14,6 +14,13 @@ This is a repository for the Arduino lightstrip clock project of the english cou
 ## Goal
 
 ## Explanation
+<h4>include + define</h4>
+
+<h4>variables</h4>
+
+<h4>setup() function</h4>
+
+<h4>loop() function</h4>
 
 ### Simulation
 
