@@ -25,7 +25,7 @@ Rejected because no use of colours and only used 9 LEDs
 
 ### Third Idea: Clock
 
-                                     {{0-1}}
+                                     {{1}}
 *******************************************************************************
 
 ![Clock](https://images-na.ssl-images-amazon.com/images/I/81NJ4EkvExL._AC_SL1500_.jpg)
@@ -36,7 +36,7 @@ Rejected because no use of colours and only used 9 LEDs
 
 *******************************************************************************
 
-                                     {{0-2}}
+                                     {{2}}
 *******************************************************************************
 
 ![Pepeclock](https://i.kym-cdn.com/photos/images/original/002/057/962/91f.jpg)
