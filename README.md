@@ -25,18 +25,13 @@ Rejected because no use of colours and only used 9 LEDs
 
 ### Third Idea: Clock
 
-                                     {{1}}
-*******************************************************************************
-
 ![Clock](https://images-na.ssl-images-amazon.com/images/I/81NJ4EkvExL._AC_SL1500_.jpg)
 
 - practical
 - uses all 12 LEDs
 - original
 
-*******************************************************************************
-
-                                     {{2}}
+                                     {{1}}
 *******************************************************************************
 
 ![Pepeclock](https://i.kym-cdn.com/photos/images/original/002/057/962/91f.jpg)
