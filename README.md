@@ -78,8 +78,65 @@ void loop()
 
 ## Challenges during development
 
+A non-exhaustive list of challenges we met during development...
+
+### Distinguishable times
+
+    {{1}}
+How to make a time representation distinguishable from others?
+
+    {{2}}
+The colors we've chosen are not arbitrary!
+
+    {{3}}
+- hours are red
+- minutes are green
+- seconds are blue
+
+    {{3}}
+The three color values don't interfere in RGB, which is why they can be added simply!
+
+    {{4}}
+$\implies$ This is not a perfect presentation for the human eye, but in theory totally distinguishable.
+
+### LED Refresh
+
+    {{1}}
+When trying out the program for the first time, we figured it actually did nothing. Not even a single light flash...!
+
+    {{2}}
+Back to the drawing board, we compared our projects to those from earlier years.
+
+    {{3}}
+As it seems, the line "FastLED.show()" was missing for us, having the LEDs be set to specific color values but never actually refreshing them!
+
+    {{4}}
+Adding the line worked perfectly and solved the problem.
+
 ## Future of the project
 
-## Quiz
+We still didn't use all potential this project has to offer. Some ideas we had:
+
+### Migrating onto an LED matrix
+
+Having the project run not only on an LED strip but on a matrix (or even a circle of more LEDs) could solve several inconveniences, such as
+
+- We wouldn't have to use brightness to simulate a clock arm position but could use 60 distinct positions right away.
+- The point above could fix the problem with distinguishable colors since we could reduce the number of possible shades.
+- A graphical matrix or circle LED construction might feel more natural to users.
+
+However, implementing this wasn't possible in the given time and we also lacked the hardware for this.
+
+### Synchronizing with real time
+
+A great dealbreaker for the project: Since Arduino has no integrated RTC (real time clock) module, there is no way to synchronize the program to have it start at the real time, but it always starts at 12 o'clock. This has several downsides:
+
+- The program presents more of a timer than a clock.
+- To use it as a clock, you'd have to know when the program started.
+- We have no possibility to re-synchronize the clock after the program started, i.e. the clock _might_ tick slower than it should due to internal calculations.
+
+The last point, however, didn't seem to be much of a problem when running the program at normal speed, the deviation was considerably low.
+
+Having a real time clock module at our disposal, the project could have become a _real_ clock.
 
 ## Sources
