@@ -27,7 +27,8 @@ This is a repository for the Arduino lightstrip clock project of the english cou
 * internal timer (in sec)
 * speed of timer (normal: 1sec)
 
-what does a clock need?<br>
+what does a clock need?
+
 * hour, minute, second "hand"
 * different states for hour/minute/second 1, 2, ...
 
