@@ -14,13 +14,37 @@ This is a repository for the Arduino lightstrip clock project of the english cou
 ## Goal
 
 ## Explanation
+    {{1}}
 <h4>include + define</h4>
 
+* import necessary libraries
+* set pin + number of LEDs + brightness (constant variables)
+* save colour of LEDs in  array
+
+    {{2}}
 <h4>variables</h4>
 
+* internal timer (in sec)
+* speed of timer (normal: 1sec)
+
+what does a clock need?
+* hour, minute, second "hand"
+* different states for hour/minute/second 1, 2, ...
+
+    {{3}}
 <h4>setup() function</h4>
 
+* connects arduino to LEDs
+* sets brightness
+
+    {{4}}
 <h4>loop() function</h4>
+
+* waits 1sec / (speed of timer)
+* increase timer by 1sec + set colour of LEDs to "black"
+* checks if timer > 24h (end of day/clock) --> resets timer
+* calculates hour/min/sec with timer --> sets colour for different states
+* display on LEDs
 
 ### Simulation
 
@@ -90,3 +114,7 @@ void loop()
 ## Quiz
 
 ## Sources
+
+[FastLED library](https://github.com/FastLED/FastLED/wiki/Pixel-reference#chsv)
+
+[Examples](https://github.com/TUBAF-IUZ-LiaScript/ENGLISH-ROB-BGIP/blob/main/Arduino-projects/main.md)
