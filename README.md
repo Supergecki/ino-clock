@@ -43,7 +43,7 @@ Iterate Variations or LEDs first?
                            {{3}}
 $\implies$ Variations first
 
-
+*******************************************************************************
 
 
 ## Explanation
