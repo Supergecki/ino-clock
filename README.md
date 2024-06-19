@@ -36,17 +36,28 @@ Rejected because no use of colours and only used 9 LEDs
 
 ![Pepeclock](https://i.kym-cdn.com/photos/images/original/002/057/962/91f.jpg)
 
-\> be us \
-\> Brainstorming ideas\
-\> only basic stuff like sorting algorithm or digits of pi\
-\> sudden realisation\
-\> 12 LEDs\
-\> think of other things with twelve in them\
-\> calendar\
-\> clock\
-\> holyShit.png\
-\> talk to teammates about clock\
-\> they immediately wanna do it\
+\> be us 
+
+\> Brainstorming ideas
+
+\> only basic stuff like sorting algorithm or digits of pi
+
+\> sudden realisation
+
+\> 12 LEDs
+
+\> think of other things with twelve in them
+
+\> calendar
+
+\> clock
+
+\> holyShit.png
+
+\> talk to teammates about clock
+
+\> they immediately wanna do it
+
 This was so obvious why has nobody thought of this before? 
 
 *******************************************************************************
