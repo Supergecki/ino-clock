@@ -4,7 +4,7 @@ import: https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Supergecki/ino-clock/main/README.md#1)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Supergecki/ino-clock/Goals/README.md#1)
 
 # ino-clock
 This is a repository for the Arduino lightstrip clock project of the english course for Robotics, Computer Science and Mathematics students at the TU Freiberg.
@@ -12,6 +12,39 @@ This is a repository for the Arduino lightstrip clock project of the english cou
 ## Inspiration
 
 ## Goal
+
+* Lights that move from Left to right through the LED strip
+* Different coloured lights for hour, minute and second hand
+* Two Variations for hours
+* Five Variations each for minutes and seconds
+* Overlapping hands should add colours
+
+### Questions
+
+                                     {{0-2}}
+*******************************************************************************
+
+Different colour or same colour but varying Brightness?
+
+* Different colours clearer
+* Same colours easier to understand
+
+                                     {{1}}
+$\implies$ Same colours
+
+                                     {{2-4}}
+*******************************************************************************
+
+Iterate Variations or LEDs first?
+
+* Variations first for seconds and minutes easier to understand
+* LEDs first gives clear AM-PM-indicator
+
+                           {{3}}
+$\implies$ Variations first
+
+
+
 
 ## Explanation
     {{1}}
