@@ -4,7 +4,7 @@ import: https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Supergecki/ino-clock/Goals/README.md#1)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/LtSchneefall/ino-clock/Goals/README.md#1)
 
 # ino-clock
 This is a repository for the Arduino lightstrip clock project of the english course for Robotics, Computer Science and Mathematics students at the TU Freiberg.
