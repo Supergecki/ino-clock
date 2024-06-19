@@ -19,6 +19,9 @@ This is a repository for the Arduino lightstrip clock project of the english cou
 * Five Variations each for minutes and seconds
 * Overlapping hands should add colours
 
+![Clock1](./img/glock1.png)
+![Clock2](./img/glock2.png)
+
 ### Questions
 
                                      {{0-2}}
