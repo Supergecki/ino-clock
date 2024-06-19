@@ -21,7 +21,7 @@ This is a repository for the Arduino lightstrip clock project of the english cou
 
 ### Questions
 
-                                     {{0-2}}
+                                     {{0-1}}
 *******************************************************************************
 
 Different colour or same colour but varying Brightness?
@@ -32,7 +32,7 @@ Different colour or same colour but varying Brightness?
                                      {{1}}
 $\implies$ Same colours
 
-                                     {{2-4}}
+                                     {{2-3}}
 *******************************************************************************
 
 Iterate Variations or LEDs first?
