@@ -115,12 +115,12 @@ $\implies$ Variations first
 * set pin + number of LEDs + brightness (constant variables)
 * save colour of LEDs in  array
 
-´´´
+``` cpp
 #include "FastLED.h"
 #define DATA_PIN 6
 #define NUM_LEDS 12
 #define BRIGHTNESS 180
-´´´
+``
 
 *********************************
 
@@ -136,7 +136,7 @@ what does a clock need?
 * hour, minute, second "hand"
 * different states for hour/minute/second 1, 2, ...
 
-´´´
+```
 CRGB leds[NUM_LEDS];
 
 unsigned long second_counter = 0;
@@ -147,7 +147,7 @@ int minutes;
 int seconds;
 int hour_brightness[] = {128, 255};
 int min_sec_brightness[] = {51, 102, 153, 204, 255};
-´´´
+```
 
 *********************************
 
@@ -158,14 +158,14 @@ int min_sec_brightness[] = {51, 102, 153, 204, 255};
 * connects arduino to LEDs
 * sets brightness
   
-´´´
+```
 void setup()
 {
     FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);
     FastLED.setBrightness(BRIGHTNESS);
 
 }
-´´´
+```
 
 *********************************
 
@@ -179,7 +179,7 @@ void setup()
 * calculates hour/min/sec with timer --> sets colour for different states
 * display on LEDs
 
-  ´´´
+```
   
 void loop()
 {
