@@ -11,6 +11,57 @@ This is a repository for the Arduino lightstrip clock project of the english cou
 
 ## Inspiration
 
+### First Idea: Sorting Algorithm
+
+![Insertion Sort](https://pythonturtle.academy/wp-content/uploads/2019/08/small-1.gif)
+
+Rejected on grounds of being common
+
+### Second idea: Digits of Pi
+
+![Pi](https://www.cbc.ca/kids/images/pi_50_digits_920.jpg)
+
+Rejected because no use of colours and only used 9 LEDs
+
+### Third Idea: Clock
+
+![Clock](https://images-na.ssl-images-amazon.com/images/I/81NJ4EkvExL._AC_SL1500_.jpg)
+
+- practical
+- uses all 12 LEDs
+- original
+
+                                     {{1}}
+*******************************************************************************
+
+![Pepeclock](https://i.kym-cdn.com/photos/images/original/002/057/962/91f.jpg)
+
+\> be us 
+
+\> Brainstorming ideas
+
+\> only basic stuff like sorting algorithm or digits of pi
+
+\> sudden realisation
+
+\> 12 LEDs
+
+\> think of other things with twelve in them
+
+\> calendar
+
+\> clock
+
+\> holyShit.png
+
+\> talk to teammates about clock
+
+\> they immediately wanna do it
+
+This was so obvious why has nobody thought of this before? 
+
+*******************************************************************************
+
 ## Goal
 
 ## Explanation
