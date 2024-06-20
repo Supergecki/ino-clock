@@ -64,6 +64,47 @@ This was so obvious why has nobody thought of this before?
 
 ## Goal
 
+* Lights that move from Left to right through the LED strip
+* Different coloured lights for hour, minute and second hand
+* Two Variations for hours
+* Five Variations each for minutes and seconds
+* Overlapping hands should add colours
+
+![Clock1](./img/glock1.png)
+
+![Clock2](./img/glock2.png)
+
+### Questions
+
+                                     {{0-2}}
+*******************************************************************************
+
+Different colour or same colour but varying Brightness?
+
+* Different colours clearer
+* Same colours easier to understand
+![Variations](./img/Variations.png)
+
+
+                                     {{1}}
+$\implies$ Same colours
+
+*******************************************************************************
+                                     {{2-4}}
+*******************************************************************************
+
+Iterate Variations or LEDs first?
+
+* Variations first for seconds and minutes easier to understand
+* LEDs first gives clear AM-PM-indicator
+![Order](./img/order.png)
+
+                           {{3}}
+$\implies$ Variations first
+
+*******************************************************************************
+
+
 ## Explanation
 
     {{1}}
