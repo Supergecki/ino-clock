@@ -31,9 +31,12 @@ Different colour or same colour but varying Brightness?
 
 * Different colours clearer
 * Same colours easier to understand
+![Variations](./img/Variations.png)
+
 
                                      {{1}}
 $\implies$ Same colours
+
 *******************************************************************************
                                      {{2-4}}
 *******************************************************************************
@@ -42,6 +45,7 @@ Iterate Variations or LEDs first?
 
 * Variations first for seconds and minutes easier to understand
 * LEDs first gives clear AM-PM-indicator
+![Order](./img/order.png)
 
                            {{3}}
 $\implies$ Variations first
