@@ -210,7 +210,6 @@ void loop()
     FastLED.show();
 }
 ```
-
 *********************************
 
 ### Simulation
